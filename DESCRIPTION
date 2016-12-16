@@ -1,0 +1,16 @@
+Package: TxDb.Hsapiens.UCSC.hg19.refGene
+Title: Annotation package for TxDb object(s)
+Description: Exposes an annotation databases generated from UCSC by exposing these as TxDb objects
+Version: 3.4.0
+Author: Can Wang <wcstcyx@gmail.com> [cre]
+Maintainer: Can Wang <wcstcyx@gmail.com>
+Depends: GenomicFeatures (>= 1.26.0)
+Imports: AnnotationDbi
+License: Artistic-2.0
+organism: Homo sapiens
+species: Homo sapiens
+provider: UCSC
+provider_version: hg19 genome based on the refGene table
+release_date: 2016-12-12 11:11:44 +0800 (Mon, 12 Dec 2016)
+resource_url: http://genome.ucsc.edu/
+biocViews: AnnotationData, Genetics, TxDb, Homo_sapiens
